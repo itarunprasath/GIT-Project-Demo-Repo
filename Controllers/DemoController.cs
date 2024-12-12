@@ -16,6 +16,12 @@ namespace GIT_Project_Demo.Controllers
         public IActionResult AzniraWelcomeMessage()
         {
             return Ok("welcome to Aznira");
+
+        }
+        [HttpGet]
+        public IActionResult HaidahWelcomeMessage()
+        {
+            return Ok("welcome to Haidah demo");
         }
     }
 }
