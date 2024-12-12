@@ -12,5 +12,10 @@ namespace GIT_Project_Demo.Controllers
         {
             return Ok("welcome to demo");
         }
+        [HttpGet]
+        public IActionResult AzniraWelcomeMessage()
+        {
+            return Ok("welcome to Aznira");
+        }
     }
 }
