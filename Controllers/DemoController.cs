@@ -52,5 +52,12 @@ namespace GIT_Project_Demo.Controllers
         {
             return Ok("Mior Is Here");
         }
+
+
+        [HttpGet]
+        public IActionResult hMessage()
+        {
+            return Ok("welcome to demo  week 7 12122024");
+        }
     }
 }
