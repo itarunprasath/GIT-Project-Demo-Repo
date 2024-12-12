@@ -12,5 +12,10 @@ namespace GIT_Project_Demo.Controllers
         {
             return Ok("welcome to demo");
         }
+        [HttpGet]
+        public IActionResult ArunWelcomeMessage()
+        {
+            return Ok("welcome to Arun");
+        }
     }
 }
