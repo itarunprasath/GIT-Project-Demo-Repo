@@ -59,5 +59,10 @@ namespace GIT_Project_Demo.Controllers
         {
             return Ok("welcome to demo  week 7 12122024");
         }
+        [HttpGet]
+        public IActionResult ForPresentation()
+        {
+            return Ok("welcome to demo  week 7 12122024");
+        }
     }
 }
