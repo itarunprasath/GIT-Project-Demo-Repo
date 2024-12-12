@@ -35,5 +35,11 @@ namespace GIT_Project_Demo.Controllers
         {
             return Ok("welcome to Azira demo");
         }
+
+        [HttpGet]
+        public IActionResult HafidahMessage()
+        {
+            return Ok("welcome to demo hafidah week 7 12122024");
+        }
     }
 }
