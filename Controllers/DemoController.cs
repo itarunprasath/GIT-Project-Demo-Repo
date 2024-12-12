@@ -41,5 +41,10 @@ namespace GIT_Project_Demo.Controllers
         {
             return Ok("welcome to demo hafidah week 7 12122024");
         }
+        [HttpGet]
+        public IActionResult wanieWelcomeMessage()
+        {
+            return Ok("Welcome to Wanie Massage");
+        }
     }
 }
