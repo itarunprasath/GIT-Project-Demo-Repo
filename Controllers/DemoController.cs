@@ -46,5 +46,11 @@ namespace GIT_Project_Demo.Controllers
         {
             return Ok("Welcome to Wanie Massage");
         }
+
+        [HttpGet]
+        public IActionResult MiorWelcomeMessage()
+        {
+            return Ok("Mior Is Here");
+        }
     }
 }
